@@ -1,9 +1,10 @@
 import React from 'react'
+import SearchBar from './components/SearchBar'
 
 const App = () => {
   return (
-    <div className='text-3xl bg-black text-white h-screen w-full'>
-      <h1>hlo</h1>
+    <div className="h-screen text-white w-full bg-gray-950">
+      <SearchBar/>
     </div>
   )
 }
